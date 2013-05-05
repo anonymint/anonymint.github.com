@@ -1,0 +1,13 @@
+permalink: /:categories/:year/:month/:day/:title 
+auto: true
+pygments: true
+
+#Personcal Setting
+title : In The Speed of Light
+tagline: Site Tagline
+author :
+  name : Ekalak Mint
+  email : mint.com@gmail.com
+  github : anonymint
+  twitter : anonymint
+  feedburner : feedname
