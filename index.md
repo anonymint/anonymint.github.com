@@ -15,6 +15,9 @@ title: Speed of Light
 			{{ post.content | strip_html | truncatewords: 55 }}
 			<a href="{{ post.url }}">Read more</a>
 		</p>
+
+		<hr class="soften">
+
 	{% endif %}
 {% endfor %}
 </div>
