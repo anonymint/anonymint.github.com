@@ -3,11 +3,9 @@ layout: default
 title: Speed of Light
 ---
 
-<h1>Welcome to my only blog</h1>
+<h1>Welcome to my world</h1>
 
-This is the speed of light
-
-In `_config.yml` remember to specify your own data
+<p>Technology is like a light it will come and go like speed of light. You stop reading, exploring, talking, discussing today; tomorrow it will be outdated.</p>
 
 <div>
 {% for post in site.posts %}
