@@ -6,7 +6,7 @@ title: about me
 <h1>About Me</h1>
 
 <p>
-Hi! my name Ekalak but everyone called me Mint. I'm so curious of all kind of technology. I have to admit I wasn't a Com-Science or Com-Eng lads who spend 4 years in University. I have graduated in Electical Engineer which minimal exposed to computer as all we know.
+Hi! my name Ekalak but everyone called me 'Mint'. I'm so curious of all kind of technology. I have to admit I wasn't a Com-Science or Com-Eng lads who spend 4 years in University. I have graduated in Electical Engineer which minimal exposed to computer as all we know.
 </p>
 
 <p>
