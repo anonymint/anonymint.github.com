@@ -10,7 +10,7 @@ Hi! my name Ekalak but everyone called me Mint. I'm so curious of all kind of te
 </p>
 
 <p>
-My Journey just started when I was young. I got a short-term-scholar visting New Zealand which i have to pay only $1000 to stay aboard for a month!!! My mom asked me "here is a deal" you can choose to go there or you want a PC? well 486 intel with 256M and CD-ROM!!! I chose the later and i destroyed the whole OS (Windows 95 at that time) at the first day. 
+My Journey just started when I was young. I got a short-term-scholar visting New Zealand which i have to pay only $1000 to stay aboard for a month!!! My mom asked me "here is a deal" you can choose to go there or you want a PC? well 486 intel with 256M and CD-ROM!!! I chose the later and i destroyed the whole OS (Windows 3.11 at that time) at the first day. 
 </p>
 
 <p>
