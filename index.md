@@ -14,7 +14,7 @@ title: Speed of Light
 		<p>
 			{% assign total_words = post.content | number_of_words %}
 			{% if total_words >= 250 %} 
-			    {{ post.content | strip_html |truncatewords: 25 }}
+			    {{ post.content | split:'<!-- read more -->' | first }}
     			<a href="{{ post.url }}">read more</a>
 			{% else if %}
 				{{post.content}}
