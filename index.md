@@ -12,8 +12,8 @@ title: Speed of Light
 	{% if {{post.category <> 'example'}} %}
 		<h3><a href="{{post.url}}">{{post.title}}</a></h3>
 		<p>
-			{{ post.content | strip_html | truncatewords: 55 }}
-			<a href="{{ post.url }}">Read more</a>
+			{{ post.content  | truncatewords: 500 }}
+			<a href="{{ post.url }}">read more</a>
 		</p>
 
 		<hr class="soften">
