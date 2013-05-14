@@ -11,7 +11,7 @@ title: Uninstall Git Cheetah from context menu
 cd %PROGRAMFIELS%\git\git-cheetah 
 
 #64bit
-regsvr32 /u git_shell_ext64.dll 
+regsvr32 /u git_shell_ext64.dll
 
 #32bit
 regsvr32 /u git_shell_ext.dll
