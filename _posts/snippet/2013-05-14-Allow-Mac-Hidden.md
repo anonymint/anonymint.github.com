@@ -1,7 +1,7 @@
 ---
 layout: post
 category: snippet
-tags: [git, cheetah]
+tags: [hidden, mac]
 title: Allow Mac Finder to see hidden files
 ---
 
