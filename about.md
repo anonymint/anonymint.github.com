@@ -24,8 +24,8 @@ Fast Forward like Git, after finishing my 4 years I didn't interest in Electrica
 <p>
 One thing I'm certain with technology. 
 <ul>
-	<li>Keep learning don't be subtle Whatever you learn today it will be outdated soon</li>
-	<li>You can't improve something you can't measure it</li>
-	<li>If you hear something in your head "it doesn't make sense", it will and always doesn't make sense in the end</li>
+	<li>Keep learning don't be subtle Whatever you learn today it will be outdated soon.</li>
+	<li>You can't improve something you can't measure it.</li>
+	<li>If you hear something in your head "it doesn't make sense", it will and always doesn't make sense in the end.</li>
 </ul>
 </p>	
