@@ -11,6 +11,7 @@ title: Code Play Live
 {% for post in site.posts %}
 	{% if {{post.category <> 'example'}} %}
 		<h3><a href="{{post.url}}">{{post.title}}</a></h3>
+		<h6 id="date">{{ post.date | date_to_string}}</h6>
 		<p>
 			{% assign total_words = post.content | number_of_words %}
 			{% if total_words >= 250 %} 
