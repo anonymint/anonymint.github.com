@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Speed of Light
+title: Code Play Live
 ---
 
-<h1>Welcome to my world</h1>
+<h1>Coding hard, Playing harder, Living simple life</h1>
 
-<p>Technology is like a light it will come and go like speed of light. You stop reading, exploring, talking, discussing today; tomorrow it will be outdated.</p>
+<p>I have 3 simple rules. First, I really love technology and love coding, cracking things. Second, I am enthusiastic about exploring the world taking pictures with both DSLR and memory(mine not camera). Last, I live my life simple and happy</p>
 
 <div>
 {% for post in site.posts %}
