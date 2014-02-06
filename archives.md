@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Speed of Light - Technical
+title: Code·Play·Live - Technical
 ---
 
 <div class="row">
