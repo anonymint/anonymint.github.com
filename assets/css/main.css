@@ -1,9 +1,9 @@
-/*!
- * Custom CSS
- *
- */
+/* ==========================================================================
+   Main CSS by Mint
+   ========================================================================== */   
 
- .footer {
+
+.footer {
 	text-align: center;
 	padding: 30px 0;
 	margin-top: 70px;
@@ -22,7 +22,10 @@ hr.soften {
   border: 0;
 }
 
-/* lower icon glyphicons */
-[class^="icon-"] {
-margin-top: 6px;
+.white, .white a {
+	color: #fff;
+}
+
+.starter-template {
+	padding: 40px 15px;	
 }

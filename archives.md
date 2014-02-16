@@ -4,7 +4,7 @@ title: Code·Play·Live - Technical
 ---
 
 <div class="row">
-  <div class="span4">
+  <div class="col-sm-4 col-md-4">
   	<h3>Tech</h3>
 	  {% for post in site.posts %}
 			{% if {{post.category == 'technical'}} %}
@@ -15,7 +15,7 @@ title: Code·Play·Live - Technical
 			{% endif %}
 		{% endfor %}
   </div>
-  <div class="span4">
+  <div class="col-sm-4 col-md-4">
   	<h3>Snippet</h3>
 	  {% for post in site.posts %}
 			{% if {{post.category == 'snippet'}} %}
@@ -26,7 +26,7 @@ title: Code·Play·Live - Technical
 			{% endif %}
 		{% endfor %}
   </div>
-  <div class="span4">
+  <div class="col-sm-4 col-md-4">
     <h3>Leisure</h3>
 	  {% for post in site.posts %}
 			{% if {{post.category == 'leisure'}} %}
