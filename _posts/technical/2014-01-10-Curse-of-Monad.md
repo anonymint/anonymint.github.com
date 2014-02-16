@@ -22,9 +22,10 @@ tags: [monad,functional]
 
 <p>Let start from this casual video by Dr. Brian Beckman, a Channel 9 celebrity, astrophysicist and senior software engineer. He thought it would be a very good idea to address the complexity of monads in an easy to understand way: a technical conversation at the white board with yours truly for Channel 9. It's for msdn 9 channel so we would hear c#, f# and a bit of Linq yes Erik Meijer the creator of LINQ and yes it's Monad.</p>
 
-<div class="row-fluid">
-	<iframe class="container" width="640" height="390" src="//www.youtube.com/embed/ZhuHCtR3xq8" frameborder="0" allowfullscreen="">youtube video</iframe>
+<div class="video-container">
+	<iframe src="//www.youtube.com/embed/ZhuHCtR3xq8" frameborder="0" allowfullscreen="">youtube video</iframe>
 </div>
+
 
 <p>Further more if you're familiar with Scala, this video on <a target="_blank" href="https://class.coursera.org/reactive-001/lecture/27/">Coursera Reactive Programming</a> explained from Scala perspective</p>
 

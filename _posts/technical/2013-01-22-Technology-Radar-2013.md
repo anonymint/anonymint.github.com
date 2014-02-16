@@ -13,5 +13,5 @@ tags: [technology radar, 2013]
 </ul>
 
 <p>
-<img src="http://www.thoughtworks.com/sites/www.thoughtworks.com/files/images/52/radar-october-2012-landscape-medium.jpg">
+<img class="img-responsive" src="http://www.thoughtworks.com/sites/www.thoughtworks.com/files/images/52/radar-october-2012-landscape-medium.jpg">
 </p>
