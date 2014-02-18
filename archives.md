@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code·Play·Live - Technical
+title: Code·Play·Live - Archives
 ---
 
 <div class="row">
