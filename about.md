@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code·Play·Live - About Me
+title: Code·Play·Live | About Me
 ---
 
 <h1>About Me</h1>
