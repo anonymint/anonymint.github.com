@@ -15,7 +15,7 @@ tags: [java8,lambda expressions]
 
 <p>lambda expressions with Functional Interface</p>
 
-<p>It's block of code which can be transformed to [functional interface](http://download.java.net/jdk8/docs/api/java/lang/FunctionalInterface.html)</p>
+<p>It's block of code which can be transformed to <a target="_blank" href="http://download.java.net/jdk8/docs/api/java/lang/FunctionalInterface.html">functional interface</a></p>
 
 <p>
 	<pre class="prettyprint">
