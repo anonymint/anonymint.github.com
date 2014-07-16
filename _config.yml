@@ -1,6 +1,5 @@
 permalink: /:categories/:year/:month/:day/:title 
-auto: true
-pygments: true
+highlighter: pygments
 
 #Personcal Setting
 title : Code·Play·Live
