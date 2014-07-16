@@ -61,7 +61,7 @@ I get 10 times more traffic from [Google][1] than from
 
 ### Image Link
 
-![Sydney Vivid](http://farm9.staticflickr.com/8121/8935833544_766556ef1f_c.jpg "Vivid Sydney")
+![Sydney Vivid](http://farm9.staticflickr.com/8121/8935833544_766556ef1f_c.jpg "Vivid Sydney"){: .img-responsive}
 
 ### Code Style
 
