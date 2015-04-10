@@ -27,9 +27,9 @@ title: Code·Play·Live | Archives
 		{% endfor %}
   </div>
   <div class="col-sm-4 col-md-4">
-    <h3>Leisure</h3>
+    <h3>Life</h3>
 	  {% for post in site.posts %}
-			{% if {{post.category == 'leisure'}} %}
+			{% if {{post.category == 'leisure'} or {post.category == 'life'}} %}
 		<ul>
 		<li><a href="{{post.url}}">{{post.title}}</a></li>
 		</ul>

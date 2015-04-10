@@ -1,6 +1,6 @@
 ---
 layout: post
-category: live
+category: life
 tags: [rescuetime]
 ---
 
@@ -15,7 +15,7 @@ tags: [rescuetime]
 
 <!-- read more -->
 
-<p>Here is example of my report on Tuesday 7, 2014</p>
+<p>Here is example of my report on Tuesday 7</p>
 
 <a href="http://farm4.staticflickr.com/3795/12575912194_ae90f7f816_c.jpg" title="rescuetime by anonymint"><img class="center-block img-responsive" src="http://farm4.staticflickr.com/3795/12575912194_ae90f7f816_c.jpg" width="800" height="750" alt="rescuetime"></a>
 
