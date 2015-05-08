@@ -100,7 +100,7 @@ Shortest transaction:	        0.00
 
 **Throughput** is the average number of bytes transferred every second from the server to all the simulated users.
 
-**8Concurrency** is average number of simultaneous connections, a number which rises as server performance decreases.
+**Concurrency** is average number of simultaneous connections, a number which rises as server performance decreases.
 
 **Failed transaction** is a number of times the server returned a code less than 400, redirects are considered successful.
 
