@@ -6,17 +6,19 @@ My custom setting for AddThis
 
 */
 
+/* NOT WORKING */
+
 addthis.layers({
-'theme' : 'transparent',
-'share' : {
-  'position' : 'left',
-  'numPreferredServices' : 4
-}, 
-'follow' : {
-  'services' : [
-    {'service': 'facebook', 'id': 'ekalak'},
-    {'service': 'twitter', 'id': 'anonymint'},
-    {'service': 'linkedin', 'id': 'mintekalak'}
-  ]
-}   
+	'theme' : 'transparent',
+	'share' : {
+		'position' : 'left',
+		'numPreferredServices' : 4
+	}, 
+	'follow' : {
+		'services' : [
+		{'service': 'facebook', 'id': 'ekalak'},
+		{'service': 'twitter', 'id': 'anonymint'},
+		{'service': 'linkedin', 'id': 'mintekalak'}
+		]
+	}   
 });
