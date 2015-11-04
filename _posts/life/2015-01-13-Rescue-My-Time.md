@@ -17,7 +17,7 @@ tags: [rescuetime]
 
 <p>Here is example of my report on Tuesday 7</p>
 
-<a href="http://farm4.staticflickr.com/3795/12575912194_ae90f7f816_c.jpg" title="rescuetime by anonymint"><img class="center-block img-responsive" src="http://farm4.staticflickr.com/3795/12575912194_ae90f7f816_c.jpg" width="800" height="750" alt="rescuetime"></a>
+<img class="center-block img-responsive" src="https://dl.dropboxusercontent.com/u/9088111/cdn/rescue_my_time.jpg" width="800" height="750" alt="rescuetime">
 
 <p>So you can see i am working for 7h 48m on Tuesday excluding idle time like lunch time. I started my work around 9am and left around 6pm. 88 percent of my time was productivity based on the tools, website i was working on.</p>
 

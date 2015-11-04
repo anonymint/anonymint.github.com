@@ -1,4 +1,7 @@
-permalink: /:categories/:year/:month/:day/:title 
+gems :
+  - jekyll-paginate
+
+permalink: /:categories/:year/:month/:day/:title.html
 highlighter: pygments
 
 #Personcal Setting

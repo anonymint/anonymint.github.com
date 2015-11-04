@@ -7,7 +7,7 @@ title: Boot2docker - No space left on device
 
 Today I got this error after using Boot2Docker on my Mac for a long time. Yes `no space left on device`	
 
-It took me a while to stop, start, upgrade Boot2Docker to the newest version and nothing changed. After doing some research there is way to do [Getting “no space left on device” errors with Boot2Docker?](https://docs.docker.com/articles/b2d_volume_resize/) 
+It took me a while to stop, start, upgrade Boot2Docker to the newest version and nothing changed. After doing some research there is way to do. 
 
 However to be honest, it's too much for me until I found the profile way [Configuration section](https://github.com/boot2docker/boot2docker-cli)
 

@@ -1,8 +1,10 @@
 ---
 layout: post
 category: technical
-tags: [technology radar, 2013]
+tags: [technology radar, 2012]
 ---
+
+<p>as at October 2012</p>
 
 <ul>
 	<li><strong>Mobile</strong> - from “mobile first” design all the way through to a new breed of testing tools</li>
@@ -13,5 +15,7 @@ tags: [technology radar, 2013]
 </ul>
 
 <p>
-<img class="img-responsive" src="http://www.thoughtworks.com/sites/www.thoughtworks.com/files/images/52/radar-october-2012-landscape-medium.jpg">
+	<a href="https://assets.thoughtworks.com/assets/technology-radar-october-2012.pdf" alt="Technology Radar 2012">
+		<img class="img-responsive" alt="Technology Radar 2012" src="https://dl.dropboxusercontent.com/u/9088111/cdn/technology_radar_2013.png">
+	</a>
 </p>
