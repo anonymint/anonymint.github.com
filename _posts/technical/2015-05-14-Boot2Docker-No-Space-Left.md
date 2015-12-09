@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Technical
+category: technical
 tags: [docker, boot2docker, nospaceleft]
 title: Boot2docker - No space left on device
 ---
