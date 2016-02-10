@@ -2,7 +2,7 @@ gems :
   - jekyll-paginate
 
 permalink: /:categories/:year/:month/:day/:title.html
-highlighter: pygments
+highlighter: rouge
 
 #Personcal Setting
 title : Code·Play·Live
