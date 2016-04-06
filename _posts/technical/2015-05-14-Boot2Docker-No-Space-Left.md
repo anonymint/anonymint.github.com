@@ -5,7 +5,7 @@ tags: [docker, boot2docker, nospaceleft]
 title: Boot2docker - No space left on device
 ---
 
-Today I got this error after using Boot2Docker on my Mac for a long time. Yes `no space left on device`	
+Today I got this error after using Boot2Docker on my Mac for a long time. Yes <code class="prettyprint">no space left on device</code>	
 
 It took me a while to stop, start, upgrade Boot2Docker to the newest version and nothing changed. After doing some research there is way to do. 
 
