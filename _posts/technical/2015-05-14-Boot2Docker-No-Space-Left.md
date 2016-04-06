@@ -11,8 +11,10 @@ It took me a while to stop, start, upgrade Boot2Docker to the newest version and
 
 However to be honest, it's too much for me until I found the profile way [Configuration section](https://github.com/boot2docker/boot2docker-cli)
 
+<code class="prettyprint">
 	# VM disk image size in MB
 	DiskSize = 20000
+</code>
 
 **BE CAUTION YOUR IMAGES WILL BE GONE, PUSH IT FIRST!**
 

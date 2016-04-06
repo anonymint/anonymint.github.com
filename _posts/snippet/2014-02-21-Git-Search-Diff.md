@@ -10,5 +10,5 @@ title: Search all commits appear in Gif diff
 <p> Search for all commit containing word <strong>catch (InterruptedException</strong></p>
 
 <p>
-	<pre class="prettyprint">git log -p -z | perl -ln0e 'print if /[+-].*catch \(InterruptedException/'</pre>	
+	<code class="prettyprint">git log -p -z | perl -ln0e 'print if /[+-].*catch \(InterruptedException/'</code>	
 </p>

@@ -20,13 +20,13 @@ Thanks to Spring 3, to test this couldn't be more easy with annotation <code>@As
 I started from AsyncService Interface 
 </p>
 
-<pre class="prettyprint lang-java">
+<code class="prettyprint lang-java">
 
 public interface AsyncService {
     public File normalDownloadWithReturn(String filePath);
     public Future&lt;File&gt; asyncDownloadWithReturn(String filePath);
 }
-</pre>	
+</code>	
 
 <p>
 	and to implement it with Thread sleep in 2 sec and notice here I use annotation <code>asyncService</code> for spring look up and <code>Async</code> for async capability.
