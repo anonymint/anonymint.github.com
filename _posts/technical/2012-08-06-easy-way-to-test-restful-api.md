@@ -9,7 +9,7 @@ title: Easy Way to Test Restful API
 
 <p>Start with simple Jersey style setup under <code>/alerting-api/rest/groupingsubscriptions</code></p>
 
-<code class="prettyprint">
+<pre class="prettyprint">
 @GET
 @Path(value = "getSubscriptions/{groupName}")
 @Produces(MediaType.TEXT_PLAIN)
@@ -17,7 +17,7 @@ public String getSubscriptionsFromGroup(@PathParam("groupName") String _groupNam
 {
     return "Return Data from Group "+_groupName;
 }
-</code>	
+</pre>	
 
 <!-- read more -->
 
@@ -28,7 +28,7 @@ public String getSubscriptionsFromGroup(@PathParam("groupName") String _groupNam
 <a href="http://curl.haxx.se/">curl</a>
 <p>This is the most easiest one i come across and require less setup with just command style no GUI stuffs and it works perfectly in all platform even none-GUI Linux.</p>
 
-<code class="prettyprint">curl -X GET http://localhost:8080/alerting-api/rest/groupingsubscriptions/getSubscriptions/GROUPX</code>
+<code>curl -X GET http://localhost:8080/alerting-api/rest/groupingsubscriptions/getSubscriptions/GROUPX</code>
 
 <a href="https://addons.mozilla.org/En-us/firefox/addon/poster/">Poster</a>
 

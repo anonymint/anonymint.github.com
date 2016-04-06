@@ -18,6 +18,6 @@ require.config({
 
 require([
 	'jquery','bootstrap', 'google-code-prettify'
-], function($, Bootstrap, Ga, Pretty){
+], function($, Bootstrap, Pretty){
 	'use strict';
 });

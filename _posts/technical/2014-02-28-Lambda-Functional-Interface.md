@@ -18,14 +18,14 @@ tags: [java8,lambda expressions]
 <p>It's block of code which can be transformed to <a target="_blank" href="https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html">functional interface</a></p>
 
 <p>
-	<code class="prettyprint">
+<pre class="prettyprint">
 @FunctionalInterface
 public interface FunctionalInterfaceT1 {
     public void run();
 }	
-	</code>		
+</pre>		
 	
-	<code class="prettyprint">
+<pre class="prettyprint">
 //Normal work flow before java 8	
 doworkFunctionalInterface(new FunctionalInterfaceT1() {
     @Override
@@ -40,7 +40,7 @@ doworkFunctionalInterface(() -> System.out.println("Hello Lambda!"));
 public static void doworkFunctionalInterface(FunctionalInterfaceT1 functionalInterfaceT1) {
         functionalInterfaceT1.run();
 }
-	</code>	
+</pre>	
 </p>
 
 <p>

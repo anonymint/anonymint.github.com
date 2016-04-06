@@ -9,4 +9,4 @@ With El Capitan we need different command than Maverick version<
 
 We need to flushcache and reload dns once again.
 
-<code class="prettyprint">sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;</code> 
+`sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;` 

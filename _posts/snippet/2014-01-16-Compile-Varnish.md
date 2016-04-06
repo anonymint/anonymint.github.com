@@ -9,9 +9,7 @@ title: When Varnish couldn't be started, What's error?
 
 But not anymore if you can quickly compile and see error at which line
 
-<code class="prettyprint">
+<pre class="prettyprint">
 varnishd -C -f /path/to/config.vcl
-
 #if there is error you will see at which line, which file
-
-</code>	
+</pre>	

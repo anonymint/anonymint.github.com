@@ -5,8 +5,6 @@ tags: [flushdns, maverick]
 title: Flush DNS in Mac Maverick
 ---
 
-<p>With Maverick we need different command other than before</p>
+With Maverick we need different command other than before
 
-<p>
-	<code class="prettyprint">sudo discoveryutil udnsflushcaches</code>	
-</p>
+`sudo discoveryutil udnsflushcaches`
