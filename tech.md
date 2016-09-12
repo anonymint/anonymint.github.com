@@ -5,7 +5,7 @@ title: Speed of Light - Technical
 
 <div>
 {% for post in site.posts %}
-	{% if {{post.category == 'technical'}} %}
+	{% if post.category == "technical" %}
 		<h3><a href="{{post.url}}">{{post.title}}</a></h3>
 		<p>
 			{% assign total_words = post.content | number_of_words %}
