@@ -14,7 +14,7 @@ author :
   twitter : anonymint
   feedburner : feedname
 
-paginate: 5
+paginate: 15
 
 #Markdown
 markdown: kramdown
