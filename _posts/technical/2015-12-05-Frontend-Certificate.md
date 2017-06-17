@@ -9,4 +9,4 @@ First of all, I consider myself backend kind of person until recently I thought 
 
 I decided to join the band of wagon via [FreeCodeCamp](http://www.freecodecamp.com/) in June this year but for some work schedule and personal excuse I managed to take FrontEnd Certificate!
 
-<img class="center-block img-responsive" src="https://dl.dropboxusercontent.com/u/9088111/cdn/front_end_certificate.png" width="70%" alt="frontend-certificate">
+<img class="center-block img-responsive" src="https://user-images.githubusercontent.com/1860126/27253690-9a65a99a-533e-11e7-91cb-654ebaebfc61.png" width="70%" alt="frontend-certificate">
