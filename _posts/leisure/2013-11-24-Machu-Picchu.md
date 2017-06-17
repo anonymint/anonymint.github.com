@@ -4,7 +4,7 @@ category: leisure
 tags: [Machu Picchu, Peru, 2013]
 ---
 
-<img class="img-responsive" src="https://dl.dropboxusercontent.com/u/9088111/cdn/machu_pichu.jpg" alt="Machu Picchu">
+<img class="img-responsive" src="https://user-images.githubusercontent.com/1860126/27253687-9a57834c-533e-11e7-9c2e-0a41d3b72678.jpg" alt="Machu Picchu">
 
 <p>Every now and then I will find a gap time to explore the world</p>
 

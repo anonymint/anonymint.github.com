@@ -16,6 +16,6 @@ tags: [technology radar, 2012]
 
 <p>
 	<a href="https://assets.thoughtworks.com/assets/technology-radar-october-2012.pdf" alt="Technology Radar 2012">
-		<img class="img-responsive" alt="Technology Radar 2012" src="https://dl.dropboxusercontent.com/u/9088111/cdn/technology_radar_2013.png">
+		<img class="img-responsive" alt="Technology Radar 2012" src="https://user-images.githubusercontent.com/1860126/27253692-9a7051d8-533e-11e7-9ed7-35c848736e53.png">
 	</a>
 </p>
