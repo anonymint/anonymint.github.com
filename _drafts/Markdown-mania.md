@@ -100,3 +100,41 @@ doworkFunctionalInterface(new FunctionalInterfaceT1() {
 });
 ~~~
 {: .prettyprint}
+
+```javascript
+// syntax highligh didn't work! just yet
+var s = "Hello World!";
+console.log(s);
+```
+
+<pre class="prettyprint">
+	var s = "Hello World!";
+	console.log(s);	
+</pre>
+
+``` txt
+ESCAPE Liquid base tag with raw
+{% raw  %}
+{% highlight javascript %}
+// How about a block of code
+function () {
+    let myFirstPromise = new Promise((resolve, reject) => {
+	  setTimeout(function(){
+	    resolve("Success!"); // Yay! Everything went well!
+	  }, 250);
+	});
+}
+{% endhighlight %}
+{% endraw %}	
+```
+
+{% highlight javascript %}
+// How about a block of code
+function () {
+    let myFirstPromise = new Promise((resolve, reject) => {
+	  setTimeout(function(){
+	    resolve("Success!"); // Yay! Everything went well!
+	  }, 250);
+	});
+}
+{% endhighlight %}

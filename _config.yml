@@ -2,7 +2,6 @@ gems :
   - jekyll-paginate
 
 permalink: /:categories/:year/:month/:day/:title.html
-highlighter: rouge
 
 #Personcal Setting
 title : Code·Play·Live
@@ -17,5 +16,8 @@ author :
 paginate: 15
 
 #Markdown
-markdown: kramdown
 markdown_ext: markdown,md
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
