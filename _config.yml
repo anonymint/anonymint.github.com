@@ -13,7 +13,7 @@ author :
   twitter : anonymint
   feedburner : feedname
 
-paginate: 5
+paginate: 10
 
 #Markdown
 markdown_ext: markdown,md
