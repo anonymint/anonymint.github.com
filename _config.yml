@@ -1,4 +1,4 @@
-gems :
+plugins :
   - jekyll-paginate
 
 permalink: /:categories/:year/:month/:day/:title.html
@@ -13,7 +13,7 @@ author :
   twitter : anonymint
   feedburner : feedname
 
-paginate: 15
+paginate: 5
 
 #Markdown
 markdown_ext: markdown,md
