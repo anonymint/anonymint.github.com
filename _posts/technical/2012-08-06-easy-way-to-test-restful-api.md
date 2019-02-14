@@ -25,16 +25,16 @@ public String getSubscriptionsFromGroup(@PathParam("groupName") String _groupNam
 
 <p>Let look how to test it with followings</p>
 
-<a href="http://curl.haxx.se/">curl</a>
+<a href="https://curl.haxx.se/">curl</a>
 <p>This is the most easiest one i come across and require less setup with just command style no GUI stuffs and it works perfectly in all platform even none-GUI Linux.</p>
 
 <code>curl -X GET http://localhost:8080/alerting-api/rest/groupingsubscriptions/getSubscriptions/GROUPX</code>
 
-<a href="https://addons.mozilla.org/En-us/firefox/addon/poster/">Poster</a>
+<a href="https://www.getpostman.com/">Postman</a>
 
-<p>It's a developer tool for interacting with web services and other web resources that lets you make HTTP requests, set the entity body, and content type. This allows you to interact with web services and inspect the results. All you need is Firefox!!</p>
+<p>It's a developer tool for interacting with web services and other web resources that lets you make HTTP requests, set the entity body, and content type. This allows you to interact with web services and inspect the results.</p>
 
-<p>This add-on is very convenience way to test web service because you can pass XML data, pick and choose which action you want then hit them to get response window back. Only drawback is you need Firefox.</p>
+<p>This tool is amazing great and I don't think I can live without it at least for now.</p>
 
 <a href="https://code.google.com/p/rest-client/">rest-client</a>
 

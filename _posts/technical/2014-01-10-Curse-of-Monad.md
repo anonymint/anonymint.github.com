@@ -9,7 +9,7 @@ tags: [monad,functional]
 
 <blockquote class="blockquote-reverse">
   <p>Once you understand monads, you immediately become incapable of explaining them to anyone else</p>
-  <footer>Gilad Bracha in <a href= "http://www.infoq.com/presentations/functional-pros-cons">infoq</a></footer>
+  <footer>Gilad Bracha in <a href= "https://www.infoq.com/presentations/functional-pros-cons">infoq</a></footer>
 </blockquote>
 
 <!-- read more -->
@@ -33,7 +33,7 @@ tags: [monad,functional]
 Now you might be in a good state of Monad perception already. You can start reading article to explain why do we care about Monad and because that's mainly to control the complexity by composition. In addition we will see some of the explanation of List Monad, Continuation Monad.
 </p>
 
-<p><a target="_blank" href="http://blogs.msdn.com/b/wesdyer/archive/2008/01/11/the-marvels-of-monads.aspx">The Marvels of Monads</a>
+<p><a target="_blank" href="https://blogs.msdn.com/b/wesdyer/archive/2008/01/11/the-marvels-of-monads.aspx">The Marvels of Monads</a>
 From the above article, the author point out to the source of Idea rising from a white paper "The Essence of Functional Programming" published by Philip Wadler from Universyti of Glasfow in short the paper mentions the GRASP team at Glasgow building a complier for Haskel written in Haskell and uses Monads as principle.</p>
  
 <p>This section intentionally left blank</p>

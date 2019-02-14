@@ -15,7 +15,7 @@ For this episode it had been divided into 3 sessions</p>
  
 <strong>Section one</strong>
 <p>Briefly talking about ScalaDay2013 held in NYC June 10-12 and Eric made it available for everyone in a short, sharp, sweet replay back.</p>
-<a target="_blank" href="http://www.slideshare.net/etorreborre/scala-days2013-proxyfactorybeandelegate">presentation</a>
+<a target="_blank" href="https://www.slideshare.net/etorreborre/scala-days2013-proxyfactorybeandelegate">presentation</a>
 
 <strong>Section two</strong>
 <p>By Sidney who is Java dev for several years and turn into the dark side of the scala and really love FP (I can count at least 5 times up he said Scala is awesome!!!) in the sense that he transformed spring-mvc in the new way doing it in scala with FP. With normal Request-Response scenario where Request hitting Controller, Controller pass to Service layer, Service layer then query database with DAOs  layer and all the way back respectively reverse order to Controller as Response. In FP he talked about wrapping all of Service layer, DAOs as functions in simple term Controller.doGet(Service, DAO) where Service and DAO represent function. </p>

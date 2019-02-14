@@ -21,7 +21,7 @@ But how fast is fast enough? we need a baseline metric and to get it we need to 
 
 <!-- read more -->
 
-### There are lot of tools out there but [Siege](http://linux.die.net/man/1/siege) for today
+### There are lot of tools out there but [Siege](https://linux.die.net/man/1/siege) for today
 
 I will show you how to use Siege in 5 minutes that it!
 
@@ -45,7 +45,7 @@ I will show you how to use Siege in 5 minutes that it!
 
 ##### Siege single URL
 
-`siege --concurrent=10 --delay=1 --time=15S  http://www.google.com`
+`siege --concurrent=10 --delay=1 --time=15S  https://www.google.com`
 
 This command will start sieging Google site with 10 users in a period of 15 seconds and delay each request in 1 sec.
 

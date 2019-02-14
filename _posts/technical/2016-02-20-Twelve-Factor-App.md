@@ -5,7 +5,7 @@ tags: [12factors]
 title: The Twelve-Factor App in Twelve line
 ---
 
-Any developers who build application as service and Ops who deploy that service should read [Twelve-factor](http://12factor.net) 
+Any developers who build application as service and Ops who deploy that service should read [Twelve-factor](https://12factor.net) 
 
 This is short in 12 lines no more to remind at least me.
 

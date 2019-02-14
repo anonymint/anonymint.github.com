@@ -15,5 +15,5 @@ eg. <code>removeLineFeed(), removeWeirdCharacters(), deleteNumeric()</code> are 
 <p>The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.</p>
 
 <p>
-Here is a good <a href="http://www.infoq.com/presentations/Guava">presentation</a> from Kevin Bourrillion at QCon San Francisco 2012.
+Here is a good <a href="https://www.infoq.com/presentations/Guava">presentation</a> from Kevin Bourrillion at QCon San Francisco 2012.
 </p>
