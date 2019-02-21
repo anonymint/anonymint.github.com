@@ -7,6 +7,6 @@ This is my personal place where i write, share something I discover so far.
 License
 -------
 
-Copyright (c) 2010-2015 Anonymint
+Copyright (c) 2010-2019 Anonymint
 
 Published under Apache Software License 2.0, see LICENSE
