@@ -6,7 +6,7 @@ title: Code·Play·Live | About Me
 <h1 class="lead">About Me</h1>
 
 <p class="lead">
-Hi! my name is <strong>Ekalak</strong> but you can call me <strong>Mint</strong> in short.
+Hi! my name is <strong>Mint</strong> but you may know me as <strong>Ekalak</strong>, that's fine. I use my legal name in many places but eventually when they know my short or nick name it sticks!
 </p> 
 
 <p class="lead">
