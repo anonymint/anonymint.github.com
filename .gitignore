@@ -1,5 +1,10 @@
 _site/*
 _theme_packages/*
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
 
 Thumbs.db
 .DS_Store
@@ -14,3 +19,20 @@ Thumbs.db
 
 *.sublime-project
 *.sublime-workspace
+
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
