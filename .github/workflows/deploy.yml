@@ -44,14 +44,16 @@ jobs:
       - name: Encrypt Private Section
         run: |
           if [ -d "_site/private" ]; then
-            # Run staticrypt recursively on the built html files
-            # Note: We use --short to bypass short password warnings if needed
+            echo "Starting encryption..."
             npx -y staticrypt _site/private -r -p "${{ secrets.SITE_PASSWORD }}" --remember 7 --short
             
-            # Staticrypt places outputs in an 'encrypted/' directory mimicking the tree
-            # We copy the encrypted html files back into the actual _site/ folder to replace the plain text ones
-            if [ -d "encrypted/private" ]; then
-              cp -R encrypted/private/* _site/private/
+            if [ -d "encrypted" ]; then
+              echo "Encryption successful. Finding and copying files..."
+              # Find all generated HTML files and copy them over their plain text counterparts
+              find encrypted -name "*.html" -exec cp {} _site/private/ \;
+            else
+              echo "ERROR: The 'encrypted' directory was not created. StatiCrypt failed!"
+              exit 1
             fi
           fi
           
