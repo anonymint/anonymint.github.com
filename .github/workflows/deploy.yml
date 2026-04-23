@@ -44,17 +44,20 @@ jobs:
       - name: Encrypt Private Section
         run: |
           if [ -d "_site/private" ]; then
-            echo "Starting encryption..."
-            npx -y staticrypt _site/private -r -p "${{ secrets.SITE_PASSWORD }}" --remember 7 --short
-            
-            if [ -d "encrypted" ]; then
-              echo "Encryption successful. Finding and copying files..."
-              # Find all generated HTML files and copy them over their plain text counterparts
-              find encrypted -name "*.html" -exec cp {} _site/private/ \;
-            else
-              echo "ERROR: The 'encrypted' directory was not created. StatiCrypt failed!"
-              exit 1
-            fi
+            echo "Starting explicit encryption..."
+            for file in _site/private/*.html; do
+              # This generates an _encrypted.html file next to the original
+              npx -y staticrypt "$file" -p "${{ secrets.SITE_PASSWORD }}" --remember 7 --short
+              
+              # Overwrite the original with the encrypted version
+              if [ -f "${file%.html}_encrypted.html" ]; then
+                mv "${file%.html}_encrypted.html" "$file"
+                echo "Successfully encrypted and replaced $file"
+              else
+                echo "ERROR: Encrypted file not generated for $file!"
+                exit 1
+              fi
+            done
           fi
           
       - name: Upload artifact
