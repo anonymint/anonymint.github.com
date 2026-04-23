@@ -50,8 +50,8 @@ jobs:
             
             # Staticrypt places outputs in an 'encrypted/' directory mimicking the tree
             # We copy the encrypted html files back into the actual _site/ folder to replace the plain text ones
-            if [ -d "encrypted/_site/private" ]; then
-              cp -R encrypted/_site/private/* _site/private/
+            if [ -d "encrypted/private" ]; then
+              cp -R encrypted/private/* _site/private/
             fi
           fi
           
