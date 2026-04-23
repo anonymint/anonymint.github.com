@@ -44,12 +44,18 @@ jobs:
       - name: Encrypt Private Section
         run: |
           if [ -d "_site/private" ]; then
+            echo "--- BEFORE ENCRYPTION ---"
+            ls -la _site/private/
+            cat _site/private/index.html | head -n 10
+            
             echo "Starting explicit encryption..."
             for file in _site/private/*.html; do
-              # Use -d to explicitly output the encrypted file back into the same directory, overwriting the plain text
               npx -y staticrypt "$file" -p "${{ secrets.SITE_PASSWORD }}" -d _site/private/ --remember 7 --short
-              echo "Successfully encrypted $file"
             done
+            
+            echo "--- AFTER ENCRYPTION ---"
+            ls -la _site/private/
+            cat _site/private/index.html | head -n 10
           fi
           
       - name: Upload artifact
