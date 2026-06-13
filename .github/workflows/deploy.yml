@@ -45,8 +45,9 @@ jobs:
         run: |
           if [ -d "_site/private" ]; then
             echo "Starting explicit encryption..."
-            for file in _site/private/*.html; do
-              npx -y staticrypt "$file" -p "${{ secrets.SITE_PASSWORD }}" -d _site/private/ --remember 7 --short
+            find _site/private -name "*.html" | while read -r file; do
+              dir=$(dirname "$file")
+              npx -y staticrypt "$file" -p "${{ secrets.SITE_PASSWORD }}" -d "$dir" --remember 7 --short
             done
           fi
           
